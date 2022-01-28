@@ -1,6 +1,7 @@
 plugins {
   id 'com.android.application'
   id 'kotlin-android'
+  id 'kotlin-parcelize'
 }
 
 android {
@@ -37,6 +38,7 @@ android {
 }
 
 dependencies {
+  implementation "com.mapbox.search:mapbox-search-android-ui:1.0.0-beta.25"
   implementation 'com.mapbox.maps:android:10.2.0'
   implementation 'androidx.core:core-ktx:1.7.0'
   implementation 'androidx.appcompat:appcompat:1.4.1'
