@@ -10,7 +10,7 @@ This project is using stored secret token in global **gradle.properties** file. 
 
 This project has stored public token in **local.properties** file which is not committed to Github. 
 
-Please declare the follow in local.properties under the proeject: 
+Please declare the following in local.properties under the project: 
 ```groovy
 mapbox_access_token=your_public_token
 ```
